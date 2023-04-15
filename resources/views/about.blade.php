@@ -328,7 +328,7 @@
                 <div class="row">
                     <div class="col col-md-5 children-holder"></div>
                     <div class="col col-md-7 subscribe">
-                        <h3>Subscribe us</h3>
+                        <h3>Subscribe us.</h3>
                         <p>For <span>news</span> updates and promotional <span>events</span></p>
 
                         <form action="#">
