@@ -113,7 +113,7 @@
                                 
                             </li>
                             <li class="">
-                                <a href="/about" class="text-white">About</a>
+                                <a href="/about" class="text-white">About..</a>
                                 
                             </li>
                             <li class="">
