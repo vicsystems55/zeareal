@@ -5,16 +5,16 @@
 
 
 
-        <!-- start of hero -->   
+        <!-- start of hero -->
         <section class="hero hero-style-three hero-slider-wrapper">
             <div class="hero-slider">
                 <div class="slide">
                     <img src="images/slider/slide-3.jpg" alt>
                     <div class="container">
                         <div class="col col-sm-8 slider-title">
-                            <h1>The most elegant <span>creature</span> is in grave <span>danger.</span></h1>
-                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
-                            <a href="#" class="btn theme-btn">Case study</a>
+                            <h1>Investing <span>in</span> women's <span> futures.</span></h1>
+                            <p>Zeareal Care: Advocating for women's rights, empowering women through education, and breaking barriers for gender equality worldwide.</p>
+                            <a href="#" class="btn theme-btn">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -22,9 +22,9 @@
                     <img src="images/slider/slide-2.jpg" alt>
                     <div class="container">
                         <div class="col col-sm-8 slider-title">
-                            <h1>The most elegant <span>creature</span> is in grave <span>danger.</span></h1>
-                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
-                            <a href="#" class="btn theme-btn">Case study</a>
+                            <h1>Empowering <span>children </span> through <span> knowledge and skills.</span></h1>
+                            <p>Zeareal Care: Ensuring quality education for all children, empowering communities, and creating a brighter future for the next generation.</p>
+                            <a href="#" class="btn theme-btn">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -32,9 +32,9 @@
                     <img src="images/slider/slide-1.jpg" alt>
                     <div class="container">
                         <div class="col col-sm-8 slider-title">
-                            <h1>The most elegant <span>creature</span> is in grave <span>danger.</span></h1>
-                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
-                            <a href="#" class="btn theme-btn">Case study</a>
+                            <h1>Creating <span>a</span> healthier <span>world together.</span></h1>
+                            <p>Zeareal Care: Promoting wellness, providing access to healthcare, and fighting against global health inequalities for a healthier world.</p>
+                            <a href="#" class="btn theme-btn">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
         </section>
         <!-- end of hero slider -->
 
-        
+
         <!-- start urgent-donation -->
         <section class="urgent-donation">
             <div class="container">
@@ -115,7 +115,7 @@
                                         </form>
                                     </div>
                                 </div>
-                            </div>                        
+                            </div>
                         </div> <!-- end urgent-slider -->
                     </div> <!-- end col -->
                 </div> <!-- end row -->
@@ -124,7 +124,7 @@
         <!-- end urgent-donation -->
 
 
-        <!-- start cta-4 --> 
+        <!-- start cta-4 -->
         <section class="cta-4 section-padding">
             <h2 class="hidden">CTA 4</h2>
             <div class="container">
@@ -158,7 +158,7 @@
         </section>
         <!-- end cta-4 -->
 
-       
+
         <!-- start latest-causes -->
         <section class="latest-causes section-padding">
             <div class="container">
@@ -174,7 +174,7 @@
                             <ul>
                                 <li><h3>Kids playground</h3></li>
                                 <li><i class="fa fa-map-marker"></i> Boston, Texas</li>
-                            </ul>                            
+                            </ul>
                         </div>
                         <div class="img-progress">
                             <div class="img-holder">
@@ -201,7 +201,7 @@
                             <ul>
                                 <li><h3>Kids playground</h3></li>
                                 <li><i class="fa fa-map-marker"></i> Boston, Texas</li>
-                            </ul>                            
+                            </ul>
                         </div>
                         <div class="img-progress">
                             <div class="img-holder">
@@ -228,7 +228,7 @@
                             <ul>
                                 <li><h3>Kids playground</h3></li>
                                 <li><i class="fa fa-map-marker"></i> Boston, Texas</li>
-                            </ul>                            
+                            </ul>
                         </div>
                         <div class="img-progress">
                             <div class="img-holder">
@@ -255,7 +255,7 @@
                             <ul>
                                 <li><h3>Kids playground</h3></li>
                                 <li><i class="fa fa-map-marker"></i> Boston, Texas</li>
-                            </ul>                            
+                            </ul>
                         </div>
                         <div class="img-progress">
                             <div class="img-holder">
@@ -282,7 +282,7 @@
                             <ul>
                                 <li><h3>Kids playground</h3></li>
                                 <li><i class="fa fa-map-marker"></i> Boston, Texas</li>
-                            </ul>                            
+                            </ul>
                         </div>
                         <div class="img-progress">
                             <div class="img-holder">
@@ -309,7 +309,7 @@
                             <ul>
                                 <li><h3>Kids playground</h3></li>
                                 <li><i class="fa fa-map-marker"></i> Boston, Texas</li>
-                            </ul>                            
+                            </ul>
                         </div>
                         <div class="img-progress">
                             <div class="img-holder">
@@ -436,7 +436,7 @@
         <!-- end about-details -->
 
 
-        <!-- start cta-2 --> 
+        <!-- start cta-2 -->
         <section class="cta-2">
             <div class="container-fluid">
                 <div class="row">
@@ -526,15 +526,14 @@
         </section>
         <!-- end events-nearby -->
 
-
-        <!-- start cta-3 --> 
+        <!-- start cta-3 -->
         <section class="cta-3">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-7 col-md-offset-5 details-text">
                         <div class="wow fadeInRightSlow">
-                            <h2>Your little <span>awareness</span> means a lot</h2>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime pla ceat facere possimus.</p>
+                            <h2>Sign up for <span>partner program</span> means a lot</h2>
+                            <p>Partner with Zeareal Care to support our mission of transforming lives through education, healthcare, and women's empowerment. Join us today!</p>
                             <a href="#" class="btn theme-btn">Sign up</a>
                         </div>
                     </div>
@@ -644,7 +643,7 @@
 
 
 
-        <!-- start newsletter -->    
+        <!-- start newsletter -->
         <section class="newsletter">
             <div class="container-fluid">
                 <div class="row">
