@@ -50,26 +50,26 @@
     <!-- start page-wrapper -->
     <div class="page-wrapper home-style-three">
 
-        <!-- start preloader --> 
+        <!-- start preloader -->
         <div class="preloader">
             <div class="middle">
                 <i class="fi flaticon-animal"></i>
             </div>
         </div>
-        <!-- end preloader -->   
+        <!-- end preloader -->
 
         <!-- Start header -->
         <header id="header" class="header-style-three">
-            <div class="topbar"> 
+            <div class="topbar">
                 <div class="upper-topbar">
                     <div class="container">
                         <div class="row">
                             <div class="col col-sm-9">
                                 <div class="contact-info">
                                     <ul>
-                                        <li><i class="fa fa-map-marker"></i> Orlando, FL 32830, United States</li>
-                                        <li><i class="fa fa-mobile"></i> +191 2819 20 01 91</li>
-                                        <li><i class="fa fa-envelope-o"></i> contact@charityplus.org</li>
+                                        <li><i class="fa fa-map-marker"></i> Dei dei, Abuja-FCT</li>
+                                        <li><i class="fa fa-mobile"></i> +2349028820064</li>
+                                        <li><i class="fa fa-envelope-o"></i> support@zearealcarefoundation.com</li>
                                     </ul>
                                 </div>
                             </div>
@@ -89,11 +89,9 @@
                     </div>
                 </div> <!-- end upper-topbar -->
 
-                
-                
-                <!-- end lower-topbar -->
+                 <!-- end lower-topbar -->
 
-            </div> <!-- end top-bar -->
+            </div>  <!-- end top-bar -->
 
             <nav class="navigation navbar navbar-default" id="main-navigation">
                 <div class="container">
@@ -110,31 +108,31 @@
                         <ul class="nav navbar-nav">
                             <li class="current ">
                                 <a href="/" >Home</a>
-                                
+
                             </li>
                             <li class="">
                                 <a href="/about" class="text-white">About..</a>
-                                
+
                             </li>
                             <li class="">
                                 <a href="/blog">Blog</a>
-                                
+
                             </li>
                             <li class="">
                                 <a href="/shop">Shop</a>
-                                
+
                             </li>
 
                             <li>
-                            
+
                                 <a href="/projects">Projects</a>
-                                
+
                             </li>
                             <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div><!-- end of nav-collapse -->
 
-                    <div class="navbar-right social-links-mini-cart">
+                    <div style="display: none" class="navbar-right social-links-mini-cart ">
                         <ul class="mini-cart-wrapper">
                             <li>
                                 <a href="#" class="mini-cart-btn">
@@ -185,7 +183,7 @@
 
         @yield('content')
 
-        <!-- start footer -->  
+        <!-- start footer -->
         <footer>
             <div class="container">
                 <div class="row upper-footer">
@@ -203,7 +201,7 @@
                                 <ul class="social-links">
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                 
+
                                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
                             </div>
@@ -215,9 +213,9 @@
                             <h3>Company</h3>
                             <ul>
                                 <li><a href="#">Who we are</a></li>
-                            
+
                                 <li><a href="#">Projects</a></li>
-                            
+
                             </ul>
                         </div>
                     </div>
@@ -229,7 +227,7 @@
                                 <li><a href="#">FAQ</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
                                 <li><a href="#">Terms of use</a></li>
-                          
+
                             </ul>
                         </div>
                     </div>

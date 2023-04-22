@@ -4602,7 +4602,7 @@ footer .lower-footer p a {
 }
 
 /*--------------------------------------------------------------
-#0.7    help 
+#0.7    help
 --------------------------------------------------------------*/
 .help {
   background-color: #f1f4f6;
@@ -4842,7 +4842,7 @@ footer .lower-footer p a {
 
 .latest-causes .title ul li:last-child,
 .latest-causes .donate-amount ul li:last-child {
-  float: right;
+  /* float: right; */
   font-size: 14px;
   color: gray;
 }
