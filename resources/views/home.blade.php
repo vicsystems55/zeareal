@@ -161,12 +161,101 @@
         </section>
         <!-- end cta-4 -->
 
+                <!-- start events-nearby -->
+                <section class="events-nearby section-padding">
+                    <div class="container">
+                        <div class="row section-title-s2">
+                            <div class="col col-md-8 col-md-offset-2">
+                                <h2><span>Our</span> Causes</h2>
+                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                            </div>
+                        </div> <!-- end section-title -->
+
+                        <div class="row">
+                            <div class="col col-xs-12">
+                                <div class="events-nearby-slider event-grid-wrapper">
+                                    <div class="event-grid">
+                                        <div class="event-box">
+                                            <div class="img-holder">
+                                                <img src="images/event/img-1.jpg" alt="" class="img img-responsive">
+                                            </div>
+                                            <div class="event-details">
+
+                                                <h3><a href="#">Fight Malnourishment For Us</a></h3>
+
+                                                <a href="#" class="btn">Learn more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="event-grid">
+                                        <div class="event-box">
+                                            <div class="img-holder">
+                                                <img src="images/event/img-2.jpg" alt="" class="img img-responsive">
+                                            </div>
+                                            <div class="event-details">
+
+                                                <h3><a href="#">Rural Child Education Supports</a></h3>
+
+                                                <a href="#" class="btn">Learn more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="event-grid">
+                                        <div class="event-box">
+                                            <div class="img-holder">
+                                                <img src="images/event/img-3.jpg" alt="" class="img img-responsive">
+                                            </div>
+                                            <div class="event-details">
+
+                                                <h3><a href="#">Water pump setting</a></h3>
+
+                                                <a href="#" class="btn">Learn more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="event-grid">
+                                        <div class="event-box">
+                                            <div class="img-holder">
+                                                <img src="images/event/img-4.jpg" alt="" class="img img-responsive">
+                                            </div>
+                                            <div class="event-details">
+
+                                                <h3><a href="#">Water pump setting</a></h3>
+
+                                                <a href="#" class="btn">Learn more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end events-nearby-slider -->
+                            </div> <!-- end col -->
+                        </div> <!-- end row -->
+                    </div> <!-- end container -->
+                </section>
+                <!-- end events-nearby -->
+
+                       <!-- start cta-3 -->
+       <section class="cta-3">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-7 col-md-offset-5 details-text">
+                    <div class="wow fadeInRightSlow">
+                        <h2>Sign up for <span>partner program</span> means a lot</h2>
+                        <p>Partner with Zeareal Care to support our mission of transforming lives through education, healthcare, and women's empowerment. Join us today!</p>
+                        <a href="#" class="btn theme-btn">Sign up</a>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end cta-3 -->
+
+
                 <!-- start latest-causes -->
                 <section class="latest-causes section-padding">
                     <div class="container">
                         <div class="row section-title-s2">
                             <div class="col col-xs-12">
-                                <h2><span>recent</span> causes</h2>
+                                <h2><span>recent</span> projects</h2>
                             </div>
                         </div> <!-- end section-title -->
 
@@ -343,87 +432,10 @@
 
 
 
-       <!-- start cta-3 -->
-       <section class="cta-3">
-        <div class="container">
-            <div class="row">
-                <div class="col col-md-7 col-md-offset-5 details-text">
-                    <div class="wow fadeInRightSlow">
-                        <h2>Sign up for <span>partner program</span> means a lot</h2>
-                        <p>Partner with Zeareal Care to support our mission of transforming lives through education, healthcare, and women's empowerment. Join us today!</p>
-                        <a href="#" class="btn theme-btn">Sign up</a>
-                    </div>
-                </div>
-            </div> <!-- end row -->
-        </div> <!-- end container -->
-    </section>
-    <!-- end cta-3 -->
 
 
 
-        <!-- start about-details -->
-        <section class="about-us-st section-padding">
-            <div class="container">
-                <h2><span>About</span> us</h2>
-                <div class="row">
-                    <div class="col col-md-6">
-                        <div class="left-col">
-                            <div class="company">
-                                <h3>We are <span>zearealcarefoundation</span></h3>
-                                <span>Making the world a better place</span>
-                            </div>
-                            <p>ZearealCare Foundation is a non-governmental organization committed to improving the lives of underprivileged communities through education, healthcare, and social welfare initiatives. Our team of dedicated volunteers and staff work tirelessly to provide sustainable solutions that empower individuals and transform communities. Join us in our mission to make the world a better place for all.</p>
 
-                            <div class="panel-group" id="accordion">
-
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" id="headingTwo">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Mission <i class="fa fa-angle-down"></i></a>
-                                    </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <div class="img-holder">
-                                                <img src="images/about/thumb/img-1.jpg" alt>
-                                            </div>
-                                            <div class="details">
-                                                <p>Is to facilitate sustainable development programme to improve on the living conditions of vulnerable youths, children, women and other minority groups through Peace-building, Socio-economic empowerment programs, networking, education, health (COVID-19), advocacy and promotion of democracy, justice and equity.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" id="headingThree">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Vision <i class="fa fa-angle-down"></i></a>
-                                    </div>
-                                    <div id="collapseThree" class="panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <div class="img-holder">
-                                                <img src="images/about/thumb/img-1.jpg" alt>
-                                            </div>
-                                            <div class="details">
-                                                <p>At Zeareal Care Foundation, we envision a world where every person has access to quality education, healthcare, and social support. We are committed to creating sustainable solutions that empower individuals and transform communities, ultimately building a more just and equitable society for all.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- end left-col -->
-                    </div> <!-- end col -->
-
-                    <div class="col col-md-6">
-                        <div class="right-col">
-                            <div class="video">
-                                <img src="images/about/video-poster-2.jpg" alt="" class="img img-responsive">
-                                <a href="https://www.youtube.com/embed/opj24KnzrWo?autoplay=1" class="video-btn" data-type="iframe"><i class="fa fa-play"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section>
-        <!-- end about-details -->
 
 
         <!-- start cta-2 -->
@@ -443,79 +455,77 @@
         </section>
         <!-- end cta-2 -->
 
+                <!-- start testimonials -->
+                <section class="testimonials section-padding">
+                    <div class="container">
+                        <div class="row section-title-single-heading">
+                            <div class="col col-md-8 col-md-offset-2">
+                                <h2><span>Clients'</span> testimonial</h2>
+                            </div>
+                        </div> <!-- end section-title -->
 
-
-        <!-- start events-nearby -->
-        <section class="events-nearby section-padding">
-            <div class="container">
-                <div class="row section-title-s2">
-                    <div class="col col-md-8 col-md-offset-2">
-                        <h2><span>Our</span> Causes</h2>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                    </div>
-                </div> <!-- end section-title -->
-
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="events-nearby-slider event-grid-wrapper">
-                            <div class="event-grid">
-                                <div class="event-box">
-                                    <div class="img-holder">
-                                        <img src="images/event/img-1.jpg" alt="" class="img img-responsive">
+                        <div class="row">
+                            <div class="col col-md-10 col-md-offset-1">
+                                <div class="client-testimonials testimonials-slider">
+                                    <div class="box">
+                                        <div class="box-inner">
+                                            <div class="img-holder">
+                                                <img src="images/testimonials/img-1.jpg" alt class="img img-circle">
+                                            </div>
+                                            <h3>Aaron ramsy</h3>
+                                            <span>CEO, Arsen Jenga</span>
+                                            <p> I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
+                                        </div>
                                     </div>
-                                    <div class="event-details">
-
-                                        <h3><a href="#">Fight Malnourishment For Us</a></h3>
-
-                                        <a href="#" class="btn">Learn more</a>
+                                    <div class="box">
+                                        <div class="box-inner">
+                                            <div class="img-holder">
+                                                <img src="images/testimonials/img-2.jpg" alt class="img img-circle">
+                                            </div>
+                                            <h3>Irina malkova</h3>
+                                            <span>CEO, Real Friend</span>
+                                            <p> I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
+                                        </div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-inner">
+                                            <div class="img-holder">
+                                                <img src="images/testimonials/img-1.jpg" alt class="img img-circle">
+                                            </div>
+                                            <h3>Aaron ramsy</h3>
+                                            <span>CEO, Arsen Jenga</span>
+                                            <p> I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
+                                        </div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-inner">
+                                            <div class="img-holder">
+                                                <img src="images/testimonials/img-2.jpg" alt class="img img-circle">
+                                            </div>
+                                            <h3>Irina malkova</h3>
+                                            <span>CEO, Real Friend</span>
+                                            <p> I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
+                                        </div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-inner">
+                                            <div class="img-holder">
+                                                <img src="images/testimonials/img-1.jpg" alt class="img img-circle">
+                                            </div>
+                                            <h3>Aaron ramsy</h3>
+                                            <span>CEO, Arsen Jenga</span>
+                                            <p> I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="event-grid">
-                                <div class="event-box">
-                                    <div class="img-holder">
-                                        <img src="images/event/img-2.jpg" alt="" class="img img-responsive">
-                                    </div>
-                                    <div class="event-details">
+                        </div>
+                    </div> <!-- end container -->
+                </section>
+                <!-- end testimonials -->
 
-                                        <h3><a href="#">Rural Child Education Supports</a></h3>
 
-                                        <a href="#" class="btn">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="event-grid">
-                                <div class="event-box">
-                                    <div class="img-holder">
-                                        <img src="images/event/img-3.jpg" alt="" class="img img-responsive">
-                                    </div>
-                                    <div class="event-details">
 
-                                        <h3><a href="#">Water pump setting</a></h3>
-
-                                        <a href="#" class="btn">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="event-grid">
-                                <div class="event-box">
-                                    <div class="img-holder">
-                                        <img src="images/event/img-4.jpg" alt="" class="img img-responsive">
-                                    </div>
-                                    <div class="event-details">
-
-                                        <h3><a href="#">Water pump setting</a></h3>
-
-                                        <a href="#" class="btn">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- end events-nearby-slider -->
-                    </div> <!-- end col -->
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section>
-        <!-- end events-nearby -->
 
 
 

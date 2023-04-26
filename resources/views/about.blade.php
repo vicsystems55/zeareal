@@ -3,10 +3,10 @@
 
 @section('content')
 
-    
-        <!-- start page-title -->    
+
+        <!-- start page-title -->
         <section class="page-title">
-            <div class="page-title-bg"></div>
+            <div class="page-title-bg" style="background-image: url({{asset('images/page-title-bg/causes-pagetitle.jpg')}})"></div>
             <div class="container">
                 <div class="title-box">
                     <h1>About us</h1>
@@ -20,6 +20,7 @@
         <!-- end page-title -->
 
 
+
         <!-- start about-details -->
         <section class="about-us-st section-padding">
             <div class="container">
@@ -28,68 +29,25 @@
                     <div class="col col-md-6">
                         <div class="left-col">
                             <div class="company">
-                                <h3>We are <span>Charity++</span></h3>
+                                <h3>We are <span>Zeareal Care Foundation</span></h3>
                                 <span>Making the world a better place</span>
                             </div>
-                            <p>Perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
+                            <p>ZearealCare Foundation is a non-governmental organization committed to improving the lives of underprivileged communities through education, healthcare, and social welfare initiatives. Our team of dedicated volunteers and staff work tirelessly to provide sustainable solutions that empower individuals and transform communities. Join us in our mission to make the world a better place for all.</p>
+                            <h3>Mission</h3>
+                            <p>Is to facilitate sustainable development programme to improve on the living conditions of vulnerable youths, children, women and other minority groups through Peace-building, Socio-economic empowerment programs, networking, education, health (COVID-19), advocacy and promotion of democracy, justice and equity.</p>
 
-                            <div class="panel-group" id="accordion">
-                                <div class="panel panel-default current">
-                                    <div class="panel-heading" id="headingOne">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">Voluptatem sequi nesciunt <i class="fa fa-angle-down"></i></a>
-                                    </div>
-                                    <div id="collapseOne" class="panel-collapse collapse in">
-                                        <div class="panel-body">
-                                            <div class="img-holder">
-                                                <img src="images/about/thumb/img-1.jpg" alt>
-                                            </div>
-                                            <div class="details">
-                                                <p>Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolo res.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <h3>Vision</h3>
+                            <p>At Zeareal Care Foundation, we envision a world where every person has access to quality education, healthcare, and social support. We are committed to creating sustainable solutions that empower individuals and transform communities, ultimately building a more just and equitable society for all.</p>
 
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" id="headingTwo">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Similique sunt in culpa <i class="fa fa-angle-down"></i></a>
-                                    </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <div class="img-holder">
-                                                <img src="images/about/thumb/img-1.jpg" alt>
-                                            </div>
-                                            <div class="details">
-                                                <p>Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolo res.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" id="headingThree">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Officia deserunt mollitia animi <i class="fa fa-angle-down"></i></a>
-                                    </div>
-                                    <div id="collapseThree" class="panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <div class="img-holder">
-                                                <img src="images/about/thumb/img-1.jpg" alt>
-                                            </div>
-                                            <div class="details">
-                                                <p>Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolo res.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div> <!-- end left-col -->
                     </div> <!-- end col -->
 
-                    <div class="col col-md-6 wow fadeInRightSlow">
+                    <div class="col col-md-6">
                         <div class="right-col">
                             <div class="video">
-                                <img src="images/about/video-poster.jpg" alt="" class="img img-responsive">
-                                <a href="https://www.youtube.com/embed/opj24KnzrWo?autoplay=1"  class="video-btn" data-type="iframe"><i class="fa fa-play"></i></a>
+                                <img src="images/about/video-poster-2.jpg" alt="" class="img img-responsive">
+                                <a href="https://www.youtube.com/embed/opj24KnzrWo?autoplay=1" class="video-btn" data-type="iframe"><i class="fa fa-play"></i></a>
                             </div>
                         </div>
                     </div>
@@ -98,43 +56,57 @@
         </section>
         <!-- end about-details -->
 
+                <!-- start help -->
+                <section class="help section-padding " style="background-color: black; color: white;">
+                    <div class="container">
+                        <div class="row section-title">
+                            <div class="col col-xs-12">
+                                <span>Join our mission</span>
+                                <h2 style="color: white" >How can you help</h2>
+                            </div>
+                        </div> <!-- end section-title -->
 
-        <!-- start cta-4 --> 
-        <section class="cta-4 section-padding">
-            <h2 class="hidden">CTA 4</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col col-sm-4">
-                        <div class="wow fadeInLeftSlow">
-                            <span class="icon"><i class="fi flaticon-money-1"></i></span>
-                            <h3>Donate money</h3>
-                            <p>Perspiciatis unde omnis iste natus error sit vo luptatem</p>
-                            <a href="#" class="read-more">Read more</a>
+                        <div class="row">
+                            <div class="col col-md-6">
+                                <div class="help-item wow slideInUpSlow">
+
+                                    <div class="details">
+                                        <h3 style="color: white">Purpose</h3>
+                                        <p>To provide Socio-ecomomic empowerment opportunities through livelihood vocational skills, entrepreneurship development, revolving fund, market access and financial linkage services to women, youth, smallholder  farmers and cooperative societies to boost income generation, poverty alleviation and employment creation in Africa</p>
+                                    </div>
+                                </div>
+                                <div class="help-item wow slideInUpSlow" data-wow-delay="0.3s">
+
+                                    <div class="details">
+                                        <h3 style="color: white">Value</h3>
+                                        <p>Includes : Respect for humanity and dignity, Respect for diversity, Self- belief, Self- reliance, Gender equality, Integrity, Accountability, Hardwork, Productivity, Innovation and Excellence.</p>
+                                    </div>
+                                </div>
+                                <div class="help-item wow slideInUpSlow" data-wow-delay="0.6s">
+
+                                    <div class="details">
+                                        <h3 style="color: white">Beliefs</h3>
+                                        <p>To promote the fundamental human rights and address the issue of gender based violence(GBV) among vulnerable women, youth, children and other minority groups through awareness creation, advocacy programme and capacity building in Nigeria.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-md-5 col-md-offset-1">
+                                <div class="box">
+                                    <div class="video">
+                                        <img src="images/help-video-bg.jpg" alt class="img img-responsive">
+                                        <a href="https://www.youtube.com/embed/opj24KnzrWo?autoplay=1" class="video-btn" data-type="iframe"><i class="fa fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col col-sm-4">
-                        <div class="wow fadeInLeftSlow" data-wow-delay="0.3s"> 
-                            <span class="icon"><i class="fi flaticon-heart"></i></span>
-                            <h3>Become volunteer</h3>
-                            <p>Perspiciatis unde omnis iste natus error sit vo luptatem</p>
-                            <a href="#" class="read-more">Read more</a>
-                        </div>
-                    </div>
-                    <div class="col col-sm-4">
-                        <div class="wow fadeInLeftSlow" data-wow-delay="0.6s">
-                            <span class="icon"><i class="fi flaticon-business-1"></i></span>
-                            <h3>Sponsorship</h3>
-                            <p>Perspiciatis unde omnis iste natus error sit vo luptatem</p>
-                            <a href="#" class="read-more">Read more</a>
-                        </div>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section>
-        <!-- end cta-4 -->
+                </section>
+                <!-- end help -->
 
 
-        <!-- start cta-2 --> 
+
+        <!-- start cta-2 -->
         <section class="cta-2">
             <div class="container-fluid">
                 <div class="row">
@@ -160,50 +132,13 @@
                 <div class="row section-title">
                     <div class="col col-xs-12">
                         <span>Meet us</span>
-                        <h2>Our Volunteers</h2>
+                        <h2>Our Team</h2>
                     </div>
                 </div> <!-- end section-title -->
 
                 <div class="row volunteers-grid">
-                    <div class="col col-md-3 col-xs-6">
-                        <div class="box">
-                            <div class="img-holder">
-                                <img src="images/volunteers/img-1.jpg" alt class="img img-responsive">
-                            </div>
-                            <div class="hover-text">
-                                <div>
-                                    <h4>Hasib sharif</h4>
-                                    <span>CEO, Hooli</span>
-                                    <ul class="social-links">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col col-md-3 col-xs-6">
-                        <div class="box">
-                            <div class="img-holder">
-                                <img src="images/volunteers/img-2.jpg" alt class="img img-responsive">
-                            </div>
-                            <div class="hover-text">
-                                <div>
-                                    <h4>Hasib sharif</h4>
-                                    <span>CEO, Hooli</span>
-                                    <ul class="social-links">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col col-md-3 col-xs-6">
+                    <div class="col col-md-12 col-xs-6">
                         <div class="box">
                             <div class="img-holder">
                                 <img src="images/volunteers/img-3.jpg" alt class="img img-responsive">
@@ -221,8 +156,47 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col col-md-3 col-xs-6">
+
+                     <div class="col col-md-4 col-xs-6">
+                        <div class="box">
+                            <div class="img-holder">
+                                <img src="images/volunteers/img-3.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="hover-text">
+                                <div>
+                                    <h4>Hasib sharif</h4>
+                                    <span>CEO, Hooli</span>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col col-md-4 col-xs-6">
+                        <div class="box">
+                            <div class="img-holder">
+                                <img src="images/volunteers/img-3.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="hover-text">
+                                <div>
+                                    <h4>Hasib sharif</h4>
+                                    <span>CEO, Hooli</span>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 col-xs-6">
                         <div class="box">
                             <div class="img-holder">
                                 <img src="images/volunteers/img-4.jpg" alt class="img img-responsive">
@@ -240,8 +214,8 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col col-md-3 col-xs-6">
+
+                    <div class="col col-md-4 col-xs-6">
                         <div class="box">
                             <div class="img-holder">
                                 <img src="images/volunteers/img-5.jpg" alt class="img img-responsive">
@@ -259,11 +233,12 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col col-md-3 col-xs-6">
+
+
+                    <div class="col col-md-4 col-xs-6">
                         <div class="box">
                             <div class="img-holder">
-                                <img src="images/volunteers/img-6.jpg" alt class="img img-responsive">
+                                <img src="images/volunteers/img-4.jpg" alt class="img img-responsive">
                             </div>
                             <div class="hover-text">
                                 <div>
@@ -278,11 +253,11 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col col-md-3 col-xs-6">
+
+                    <div class="col col-md-4 col-xs-6">
                         <div class="box">
                             <div class="img-holder">
-                                <img src="images/volunteers/img-7.jpg" alt class="img img-responsive">
+                                <img src="images/volunteers/img-5.jpg" alt class="img img-responsive">
                             </div>
                             <div class="hover-text">
                                 <div>
@@ -297,32 +272,15 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col col-md-3 col-xs-6">
-                        <div class="box">
-                            <div class="img-holder">
-                                <img src="images/volunteers/img-8.jpg" alt class="img img-responsive">
-                            </div>
-                            <div class="hover-text">
-                                <div>
-                                    <h4>Hasib sharif</h4>
-                                    <span>CEO, Hooli</span>
-                                    <ul class="social-links">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+
                 </div> <!-- end row -->
             </div> <!-- end container -->
         </section>
         <!-- end volunteers -->
 
 
-        <!-- start newsletter -->    
+        <!-- start newsletter -->
         <section class="newsletter">
             <div class="container-fluid">
                 <div class="row">
