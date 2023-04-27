@@ -1,10 +1,56 @@
-@extends('layouts.base')
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.vicSsystems Technologies Ltd..com/charity-plus/multipage/charity-plus/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Apr 2023 10:24:47 GMT -->
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zearealcare Foundation Responsive HTML Template">
+    <meta name="author" content="vicSsystems Technologies Ltd.">
+
+    <!-- Page Title -->
+    <title>Zeareal Care Foundation | Changing Lives</title>
+
+    <!-- Favicon and Touch Icons -->
+    <link href="images/favicon.png" rel="shortcut icon" type="image/png">
 
 
-@section('content')
+    <!-- Icon fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Plugins for this template -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- start page-wrapper -->
+    <div class="page-wrapper contact-page">
+
+        @include('incs.header')
 
 
-        <!-- start page-title -->    
+        <!-- start page-title -->
         <section class="page-title">
             <div class="page-title-bg"></div>
             <div class="container">
@@ -28,23 +74,23 @@
                         <div class="wow slideInUpSlow">
                             <span class="icon"><i class="fa fa-map-marker"></i></span>
                             <h3>Address</h3>
-                            <p>7300 N Aliante Pkwy, North Las Vegas, NV 89084, United States</p>
+                            <p>Dei dei, Abuja-FCT</p>
                         </div>
                     </div>
                     <div class="col col-sm-4">
                         <div class="wow slideInUpSlow" data-wow-delay="0.2s">
                             <span class="icon"><i class="fa fa-envelope-o"></i></span>
                             <h3>Email</h3>
-                            <p>support@charity.com</p>
-                            <p>contact@charity.us</p>
+                            <p>support@zearealcarefoundation.org</p>
+
                         </div>
                     </div>
                     <div class="col col-sm-4">
                         <div class="wow slideInUpSlow" data-wow-delay="0.4s">
                             <span class="icon"><i class="fa fa-fax"></i></span>
                             <h3>Phone</h3>
-                            <p>+1 702-692-7777</p>
-                            <p>+1 702-626-8888</p>
+                            <p>+234 902 882 0064</p>
+
                         </div>
                     </div>
                 </div> <!-- end contact info -->
@@ -90,4 +136,25 @@
         <!-- end contact-main-content -->
 
 
-@endsection
+        @include('incs.footer')
+    </div>
+    <!-- end of page-wrapper -->
+
+
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugins for this template -->
+    <script src="js/jquery-plugin-collection.js"></script>
+
+    <!-- Google map API -->
+    <script src="http://maps.google.com/maps/api/js?key="></script>
+
+    <!-- Custom script for this template -->
+    <script src="js/script.js"></script>
+</body>
+
+<!-- Mirrored from html.themexriver.com/charity-plus/multipage/charity-plus/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Apr 2023 10:25:33 GMT -->
+</html>

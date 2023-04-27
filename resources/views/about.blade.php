@@ -24,7 +24,7 @@
         <!-- start about-details -->
         <section class="about-us-st section-padding">
             <div class="container">
-                <h2><span>About</span> us</h2>
+
                 <div class="row">
                     <div class="col col-md-6">
                         <div class="left-col">
@@ -106,24 +106,7 @@
 
 
 
-        <!-- start cta-2 -->
-        <section class="cta-2">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col col-md-5 col-sm-4 join-us">
-                        <span>Join us</span>
-                    </div>
 
-                    <div class="col col-md-7 col-sm-8 sing-up  wow fadeInRightSlow">
-                        <h3><span><img src="images/sing-up-icon.png" alt></span> Sign up for volunteer program</h3>
-                        <span>Serve the humanity</span>
-                        <p>Iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        <a href="#" class="btn theme-btn">Sing up</a>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section>
-        <!-- end cta-2 -->
 
 
         <!-- start volunteers -->
@@ -138,24 +121,6 @@
 
                 <div class="row volunteers-grid">
 
-                    <div class="col col-md-12 col-xs-6">
-                        <div class="box">
-                            <div class="img-holder">
-                                <img src="images/volunteers/img-3.jpg" alt class="img img-responsive">
-                            </div>
-                            <div class="hover-text">
-                                <div>
-                                    <h4>Hasib sharif</h4>
-                                    <span>CEO, Hooli</span>
-                                    <ul class="social-links">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                      <div class="col col-md-4 col-xs-6">
                         <div class="box">
@@ -164,66 +129,8 @@
                             </div>
                             <div class="hover-text">
                                 <div>
-                                    <h4>Hasib sharif</h4>
-                                    <span>CEO, Hooli</span>
-                                    <ul class="social-links">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col col-md-4 col-xs-6">
-                        <div class="box">
-                            <div class="img-holder">
-                                <img src="images/volunteers/img-3.jpg" alt class="img img-responsive">
-                            </div>
-                            <div class="hover-text">
-                                <div>
-                                    <h4>Hasib sharif</h4>
-                                    <span>CEO, Hooli</span>
-                                    <ul class="social-links">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col col-md-4 col-xs-6">
-                        <div class="box">
-                            <div class="img-holder">
-                                <img src="images/volunteers/img-4.jpg" alt class="img img-responsive">
-                            </div>
-                            <div class="hover-text">
-                                <div>
-                                    <h4>Hasib sharif</h4>
-                                    <span>CEO, Hooli</span>
-                                    <ul class="social-links">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col col-md-4 col-xs-6">
-                        <div class="box">
-                            <div class="img-holder">
-                                <img src="images/volunteers/img-5.jpg" alt class="img img-responsive">
-                            </div>
-                            <div class="hover-text">
-                                <div>
-                                    <h4>Hasib sharif</h4>
-                                    <span>CEO, Hooli</span>
+                                    <h4>ESTHER UCHECHUKWU </h4>
+                                    <span style="font-weight: bold;">NATIONAL SECRETARY</span>
                                     <ul class="social-links">
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -242,8 +149,8 @@
                             </div>
                             <div class="hover-text">
                                 <div>
-                                    <h4>Hasib sharif</h4>
-                                    <span>CEO, Hooli</span>
+                                    <h4>MICHAEL ONYEDIKACHI </h4>
+                                    <span>N. TREASURER</span>
                                     <ul class="social-links">
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -261,8 +168,66 @@
                             </div>
                             <div class="hover-text">
                                 <div>
-                                    <h4>Hasib sharif</h4>
-                                    <span>CEO, Hooli</span>
+                                    <h4>JOY IFEOMA NWOBODO </h4>
+                                    <span>PROJECT COORDINATOR</span>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 col-xs-6">
+                        <div class="box">
+                            <div class="img-holder">
+                                <img src="images/volunteers/img-6.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="hover-text">
+                                <div>
+                                    <h4>KINGSLEY ONOVO Esq. </h4>
+                                    <span>LEGAL ADVISER</span>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col col-md-4 col-xs-6">
+                        <div class="box">
+                            <div class="img-holder">
+                                <img src="images/volunteers/img-8.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="hover-text">
+                                <div>
+                                    <h4>ASUQUO VICTOR ASUQUO</h4>
+                                    <span>CTO</span>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 col-xs-6">
+                        <div class="box">
+                            <div class="img-holder">
+                                <img src="images/volunteers/img-9.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="hover-text">
+                                <div>
+                                    <h4>DANIEL ORJI OGBONNA </h4>
+                                    <span>ADMIN OFFICER & HR</span>
                                     <ul class="social-links">
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -280,28 +245,19 @@
         <!-- end volunteers -->
 
 
-        <!-- start newsletter -->
-        <section class="newsletter">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col col-md-5 children-holder"></div>
-                    <div class="col col-md-7 subscribe">
-                        <h3>Subscribe us.</h3>
-                        <p>For <span>news</span> updates and promotional <span>events</span></p>
-
-                        <form action="#">
-                            <div>
-                                <input class="form-control" type="email" required placeholder="email address">
-                                <button type="submit" class="btn theme-btn">Subscribe</button>
-                            </div>
-                        </form>
-                        <div class="pluses">
-                            <i class="fa fa-plus"></i>
-                            <i class="fa fa-plus"></i>
-                        </div>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container-fluid -->
-        </section>
-        <!-- end newsletter -->
+<!-- start cta-3 -->
+<section class="cta-3">
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-7 col-md-offset-5 details-text">
+                <div class="wow fadeInRightSlow">
+                    <h2>Sign up for <span>partner program</span> means a lot</h2>
+                    <p>Partner with Zeareal Care to support our mission of transforming lives through education, healthcare, and women's empowerment. Join us today!</p>
+                    <a href="#" class="btn theme-btn">Sign up</a>
+                </div>
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section>
+<!-- end cta-3 -->
 @endsection

@@ -77,6 +77,11 @@
                         <a href="/projects">Projects</a>
 
                     </li>
+                    <li>
+
+                        <a href="/program-area">Program Area</a>
+
+                    </li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
             </div><!-- end of nav-collapse -->

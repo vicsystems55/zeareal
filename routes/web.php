@@ -32,3 +32,6 @@ Route::get('/blog', [PageController::class,'blog']);
 
 Route::get('/post', [PageController::class,'post']);
 
+Route::get('/program-area', [PageController::class,'programArea']);
+
+

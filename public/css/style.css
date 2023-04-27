@@ -2804,6 +2804,7 @@ header #navbar li.sub-sub-menu {
   }
   header .navbar-header {
     float: none;
+    height: 77px;
   }
   header .navbar-right {
     float: none !important;

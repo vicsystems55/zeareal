@@ -233,21 +233,21 @@
                 </section>
                 <!-- end events-nearby -->
 
-                       <!-- start cta-3 -->
-       <section class="cta-3">
-        <div class="container">
-            <div class="row">
-                <div class="col col-md-7 col-md-offset-5 details-text">
-                    <div class="wow fadeInRightSlow">
-                        <h2>Sign up for <span>partner program</span> means a lot</h2>
-                        <p>Partner with Zeareal Care to support our mission of transforming lives through education, healthcare, and women's empowerment. Join us today!</p>
-                        <a href="#" class="btn theme-btn">Sign up</a>
-                    </div>
-                </div>
-            </div> <!-- end row -->
-        </div> <!-- end container -->
-    </section>
-    <!-- end cta-3 -->
+        <!-- start cta-3 -->
+            <section class="cta-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-md-7 col-md-offset-5 details-text">
+                            <div class="wow fadeInRightSlow">
+                                <h2>Sign up for <span>partner program</span> means a lot</h2>
+                                <p>Partner with Zeareal Care to support our mission of transforming lives through education, healthcare, and women's empowerment. Join us today!</p>
+                                <a href="#" class="btn theme-btn">Sign up</a>
+                            </div>
+                        </div>
+                    </div> <!-- end row -->
+                </div> <!-- end container -->
+            </section>
+            <!-- end cta-3 -->
 
 
                 <!-- start latest-causes -->
