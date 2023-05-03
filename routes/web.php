@@ -34,4 +34,12 @@ Route::get('/post', [PageController::class,'post']);
 
 Route::get('/program-area', [PageController::class,'programArea']);
 
+Route::get('/donation', [PageController::class,'donation']);
+
+Route::get('/registration', [PageController::class,'registration']);
+
+Route::get('/success', [PageController::class,'success']);
+
+
+
 

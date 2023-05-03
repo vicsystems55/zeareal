@@ -67,7 +67,7 @@
     <script src="js/jquery-plugin-collection.js"></script>
 
     <!-- Google map API -->
-    <script src="http://maps.google.com/maps/api/js?key="></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyBga-LlkCob_vznMagY24dDPwTX8lcCJ3k"></script>
 
     <!-- Custom script for this template -->
     <script src="js/script.js"></script>

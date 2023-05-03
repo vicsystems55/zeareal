@@ -1389,7 +1389,7 @@ a:focus {
   color: #01AC00;
 }
 
-.sidebar .search-widget form div input {
+.sidebar .search-widget form div input, select {
   height: auto;
   color: #01AC00;
   padding: 7px 45px 7px 25px;
@@ -8633,7 +8633,7 @@ footer .lower-footer p a {
   }
 }
 
-.contact-page .contact-main-content .contact-form .form input,
+.contact-page .contact-main-content .contact-form .form input, select,
 .contact-page .contact-main-content .contact-form .form textarea {
   background-color: #e6e6e6;
   height: auto;

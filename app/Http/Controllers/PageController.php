@@ -56,5 +56,23 @@ class PageController extends Controller
         return view('program_area');
     }
 
+    public function donation()
+    {
+
+        return view('donation');
+    }
+
+    public function registration()
+    {
+
+        return view('registration');
+    }
+
+    public function success()
+    {
+
+        return view('success');
+    }
+
 
 }

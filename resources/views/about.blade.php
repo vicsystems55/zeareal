@@ -32,7 +32,7 @@
                                 <h3>We are <span>Zeareal Care Foundation</span></h3>
                                 <span>Making the world a better place</span>
                             </div>
-                            <p>ZearealCare Foundation is a non-governmental organization committed to improving the lives of underprivileged communities through education, healthcare, and social welfare initiatives. Our team of dedicated volunteers and staff work tirelessly to provide sustainable solutions that empower individuals and transform communities. Join us in our mission to make the world a better place for all.</p>
+                            <p>Zeareal Care Foundation is a non-governmental organization committed to improving the lives of underprivileged communities through education, healthcare, and social welfare initiatives. Our team of dedicated volunteers and staff work tirelessly to provide sustainable solutions that empower individuals and transform communities. Join us in our mission to make the world a better place for all.</p>
                             <h3>Mission</h3>
                             <p>Is to facilitate sustainable development programme to improve on the living conditions of vulnerable youths, children, women and other minority groups through Peace-building, Socio-economic empowerment programs, networking, education, health (COVID-19), advocacy and promotion of democracy, justice and equity.</p>
 
@@ -251,8 +251,8 @@
         <div class="row">
             <div class="col col-md-7 col-md-offset-5 details-text">
                 <div class="wow fadeInRightSlow">
-                    <h2>Sign up for <span>partner program</span> means a lot</h2>
-                    <p>Partner with Zeareal Care to support our mission of transforming lives through education, healthcare, and women's empowerment. Join us today!</p>
+                    <h2>Sign up as a<span>Partner</span> </h2>
+                    <p>Partner with Zeareal Care Foundation to support our mission of transforming lives through education, healthcare, advocacy, genda equality and women's empowerment. Join us today!</p>
                     <a href="#" class="btn theme-btn">Sign up</a>
                 </div>
             </div>

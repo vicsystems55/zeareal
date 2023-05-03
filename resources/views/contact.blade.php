@@ -52,7 +52,7 @@
 
         <!-- start page-title -->
         <section class="page-title">
-            <div class="page-title-bg"></div>
+            <div class="page-title-bg" ></div>
             <div class="container">
                 <div class="title-box">
                     <h1>Contact us</h1>
@@ -74,7 +74,7 @@
                         <div class="wow slideInUpSlow">
                             <span class="icon"><i class="fa fa-map-marker"></i></span>
                             <h3>Address</h3>
-                            <p>Dei dei, Abuja-FCT</p>
+                            <p>Gwarimpa, Abuja-FCT</p>
                         </div>
                     </div>
                     <div class="col col-sm-4">
@@ -150,7 +150,7 @@
     <script src="js/jquery-plugin-collection.js"></script>
 
     <!-- Google map API -->
-    <script src="http://maps.google.com/maps/api/js?key="></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyBga-LlkCob_vznMagY24dDPwTX8lcCJ3k"></script>
 
     <!-- Custom script for this template -->
     <script src="js/script.js"></script>

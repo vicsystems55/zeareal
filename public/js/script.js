@@ -24,7 +24,7 @@
             if (navbar.hasClass("slideInn")) {
                 navbar.removeClass("slideInn");
             }
-            return false;            
+            return false;
         })
     }
 
@@ -43,7 +43,7 @@
         } else {
              navBar.removeClass("small-nav");
         }
-    }    
+    }
 
    // Small navigation functionality
     function smallNavFunctionality() {
@@ -53,7 +53,7 @@
                 subMenuLink = subMenu.find(" > a"),
                 subSubMenu = smallNav.find(".sub-sub-menu"),
                 subSubMenuLink = subSubMenu.find(" > a");
-            
+
             subMenu.find("ul").hide();
 
             subMenuLink.on("click", function(e) {
@@ -154,7 +154,7 @@
         offset:       0,          // default
         mobile:       true,       // default
         live:         true        // default
-    }); 
+    });
 
 
     // Setting main hero slider
@@ -231,20 +231,20 @@
             } else {
                 mainNavigation.removeClass("sticky");
             }
-        });        
+        });
     }
 
 
     /*------------------------------------------
         = POPUP VIDEO
-    -------------------------------------------*/  
+    -------------------------------------------*/
     if ($(".video-btn").length) {
         $(".video-btn").on("click", function(){
             $.fancybox({
                 href: this.href,
                 type: $(this).data("type"),
                 'title'         : this.title,
-                helpers     : {  
+                helpers     : {
                     title : { type : 'inside' },
                     media : {}
                 },
@@ -254,7 +254,7 @@
                 }
             });
             return false
-        });    
+        });
     }
 
 
@@ -280,7 +280,7 @@
                         var $this = $(this);
                         $this.find('span').html(Math.round(100 * stepValue) + '<i>%</i>');
                     });
-                }                
+                }
             });
         };
     }
@@ -301,7 +301,7 @@
                     var percent = current_item.data('percent');
                     current_item.append('<span>' + percent + '%' + '</span>').css('width', percent + '%').addClass('appeared');
                 }
-                
+
             });
         };
     }
@@ -431,7 +431,7 @@
 
     /*------------------------------------------
         = ACTIVE GALLERY POPUP IMAGE
-    -------------------------------------------*/  
+    -------------------------------------------*/
     if ($(".popup-gallery").length) {
         $('.popup-gallery').magnificPopup({
             delegate: 'a',
@@ -450,20 +450,20 @@
                     return openerElement.is('img') ? openerElement : openerElement.find('img');
                 }
             }
-        });    
+        });
     }
 
 
     /*------------------------------------------
         = ACTIVE EVENT 3 COL FEATURED COUNTDOWN
-    -------------------------------------------*/  
+    -------------------------------------------*/
     if ($("#countdown").length){
         $('#countdown').ClassyCountdown({
-            theme: "white", 
+            theme: "white",
             now:  $.now()/1000 ,
             end:  '1493596800' ,
 
-           // end: $.now() + 31556926 , 
+           // end: $.now() + 31556926 ,
 
             labelsOptions: {
                 lang: {
@@ -604,15 +604,15 @@
                 }
             }
         });
-    }  
+    }
 
 
     /*------------------------------------------
         = ABOUT PAGE ACCRODIAN TOGGLE CALSS
-    -------------------------------------------*/  
+    -------------------------------------------*/
     if ($(".about-us-st #accordion").length) {
         var panelHeading = $(".about-us-st #accordion .panel-heading > a");
-        
+
         panelHeading.on("click", function() {
             var $this = $(this);
             if (!$this.closest(".panel").hasClass("current")) {
@@ -620,7 +620,7 @@
             } else {
                  $this.closest(".panel").removeClass("current");
             }
-            
+
             $this.closest(".panel").siblings().removeClass("current");
         });
     }
@@ -683,7 +683,7 @@
                     var $this = $(this);
                     $this.find('span').html(Math.round(100 * stepValue) + '<i>%</i>');
                 });
-            }                
+            }
         });
     }
 
@@ -749,13 +749,13 @@
 
     /*------------------------------------------
         = GOOGLE MAP
-    -------------------------------------------*/  
+    -------------------------------------------*/
     function map() {
 
-        var myLatLng = new google.maps.LatLng(36.169941,-115.139830);
+        var myLatLng = new google.maps.LatLng(9.1099,7.4042);
         var mapProp = {
             center: myLatLng,
-            zoom: 11,
+            zoom: 15,
             scrollwheel: false,
             mapTypeId: google.maps.MapTypeId.ROAD
         };
@@ -792,15 +792,15 @@
                     "featureType": "landscape",
                     "elementType": "all",
                     "stylers": [
-                        {
-                            "saturation": -100
-                        },
-                        {
-                            "lightness": 65
-                        },
-                        {
-                            "visibility": "on"
-                        }
+                        // {
+                        //     "saturation": 0
+                        // },
+                        // {
+                        //     "lightness": 65
+                        // },
+                        // {
+                        //     "visibility": "on"
+                        // }
                     ]
                 },
                 {
@@ -894,8 +894,8 @@
                     ]
                 }
             ]
-        );        
-    }; 
+        );
+    };
 
 
     /*------------------------------------------
@@ -914,7 +914,7 @@
 
     /*------------------------------------------
         = CONTACT FORM SUBMISSION
-    -------------------------------------------*/  
+    -------------------------------------------*/
     if ($("#contact-form").length) {
         $("#contact-form").validate({
             rules: {
@@ -923,11 +923,11 @@
                     minlength: 2
                 },
                 email: "required",
-                
+
                 subject: {
                     required: true
                 },
-                
+
                 message: {
                     required: true
                 }
@@ -962,7 +962,7 @@
                         }, 3000);
                     }
                 });
-                return false; 
+                return false;
             }
 
         });
@@ -992,7 +992,7 @@
                     var $this = $(this);
                     $this.find('span').html(Math.round(100 * stepValue) + '<i>%</i>');
                 });
-            }                
+            }
         });
     }
 
@@ -1054,7 +1054,7 @@
                                 yAxes: [{
                                     gridLines: {
                                         display:false
-                                    }   
+                                    }
                                 }]
                             },
                             animation: {
@@ -1081,7 +1081,7 @@
                             //         this.data.datasets.forEach(function (dataset, i) {
                             //             var meta = chartInstance.controller.getDatasetMeta(i);
                             //             meta.data.forEach(function (bar, index) {
-                            //                 var data = dataset.data[index];                            
+                            //                 var data = dataset.data[index];
                             //                 ctx.fillText(data, bar._model.x, bar._model.y);
                             //             });
                             //         });
@@ -1089,8 +1089,8 @@
                             // }
                         }
 
-                    });                    
-                }                
+                    });
+                }
             });
         };
     }
@@ -1101,7 +1101,7 @@
 
     /*------------------------------------------
         = FUNFACT
-    -------------------------------------------*/  
+    -------------------------------------------*/
     if ($(".fun-fact").length) {
         $('.counter').appear();
         $(document.body).on('appear', '.counter', function(e) {
@@ -1121,7 +1121,7 @@
                 }
             });
         });
-    }   
+    }
 
 
     /*------------------------------------------
@@ -1206,7 +1206,7 @@
             var progressBar = $(".urgent-causes .progress-bar");
             var percent = progressBar.data('percent');
             progressBar.css('width', percent + '%');
-                
+
         };
     }
 
@@ -1224,7 +1224,7 @@
             urgentCausesOpnBtn.toggleClass("open");
             return false;
         })
-    }  
+    }
 
 
     /*------------------------------------------
@@ -1251,20 +1251,20 @@
 
     /*------------------------------------------------------
         = GOOGLE MAP FOR HOME STYLE FIVE ABOUT AREA
-    ----------------------------------------------------*/  
+    ----------------------------------------------------*/
     if ($(".map-link").length) {
         $('.map-link').magnificPopup({
             type: 'iframe'
-        }); 
+        });
     }
 
 
     /*----------------------------------------------------
         = HOME STYLE FIVE ABOUT ACCRODIAN TOGGLE CALSS
-    --------------------------------------------------------*/  
+    --------------------------------------------------------*/
     if ($(".about-st3 #accordion").length) {
         var panelHeading = $(".about-st3 #accordion .panel-heading > a");
-        
+
         panelHeading.on("click", function() {
             var $this = $(this);
             if (!$this.closest(".panel").hasClass("current")) {
@@ -1272,7 +1272,7 @@
             } else {
                  $this.closest(".panel").removeClass("current");
             }
-            
+
             $this.closest(".panel").siblings().removeClass("current");
         });
     }
@@ -1295,12 +1295,12 @@
         }
     }
 
-    masonryGridSetting();    
+    masonryGridSetting();
 
 
 
     /*==========================================================================
-        WHEN DOCUMENT LOADING 
+        WHEN DOCUMENT LOADING
     ==========================================================================*/
         $(window).on('load', function() {
 
@@ -1325,7 +1325,7 @@
             // call map funciton
             if ($(".map").length) {
                 map();
-            } 
+            }
 
             // set cta-2 two col equial
             if ($(".cta-2").length) {
@@ -1335,7 +1335,7 @@
             // set newsletter two col equial
             if ($(".newsletter").length) {
                 setTwoColEqHeight($(".newsletter .children-holder"), $(".newsletter .subscribe"));
-            }  
+            }
 
             // set cancer text featured two col equal height
             if ($(".event-3col .featured").length) {
@@ -1385,7 +1385,7 @@
         // home style 4 about-st2 two col equal height
         if ($(".about-st2").length) {
             setTwoColEqHeight($(".about-st2 .left-col"), $(".about-st2 .right-col"));
-        }  
+        }
     });
 
 

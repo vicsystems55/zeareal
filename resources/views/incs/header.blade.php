@@ -15,7 +15,7 @@
                     <div class="col col-sm-9">
                         <div class="contact-info">
                             <ul>
-                                <li><i class="fa fa-map-marker"></i> Dei dei, Abuja-FCT</li>
+                                <li><i class="fa fa-map-marker"></i> Gwarimpa, Abuja-FCT</li>
                                 <li><i class="fa fa-mobile"></i> +2349028820064</li>
                                 <li><i class="fa fa-envelope-o"></i> support@zearealcarefoundation.com</li>
                             </ul>

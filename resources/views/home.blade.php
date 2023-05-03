@@ -57,7 +57,7 @@
                                     </div>
                                     <div class="details">
                                         <span>Urgent</span>
-                                        <h2>Help us fight against Malnourishment</h2>
+                                        <h2>Promote Education</h2>
 
                                         <div class="progress-wrapper">
                                             <div class="progress">
@@ -87,11 +87,11 @@
 
                                 <div class="urgent-box">
                                     <div class="img-holder">
-                                        <img src="images/urgent-slider/img-2.jpg" alt class="img img-responsive">
+                                        <img src="images/urgent-slider/img-1.jpg" alt class="img img-responsive">
                                     </div>
                                     <div class="details">
                                         <span>Urgent</span>
-                                        <h2>Help us fight against Malnourishment</h2>
+                                        <h2>Feed a Child Today</h2>
 
                                         <div class="progress-wrapper">
                                             <div class="progress">
@@ -167,7 +167,7 @@
                         <div class="row section-title-s2">
                             <div class="col col-md-8 col-md-offset-2">
                                 <h2><span>Our</span> Causes</h2>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                <p></p>
                             </div>
                         </div> <!-- end section-title -->
 
@@ -282,7 +282,7 @@
                                     </ul>
                                 </div>
                                 <div class="text">
-                                    <p>Iste natus error sit voluptatem accusantium dolo remque laudantium.</p>
+                                    <p></p>
                                     <a href="#" class="btn theme-btn">Donate now</a>
                                 </div>
                             </div>
@@ -309,7 +309,7 @@
                                     </ul>
                                 </div>
                                 <div class="text">
-                                    <p>Iste natus error sit voluptatem accusantium dolo remque laudantium.</p>
+                                    <p></p>
                                     <a href="#" class="btn theme-btn">Donate now</a>
                                 </div>
                             </div>
@@ -336,7 +336,7 @@
                                     </ul>
                                 </div>
                                 <div class="text">
-                                    <p>Iste natus error sit voluptatem accusantium dolo remque laudantium.</p>
+                                    <p></p>
                                     <a href="#" class="btn theme-btn">Donate now</a>
                                 </div>
                             </div>
@@ -365,7 +365,7 @@
                                     </ul>
                                 </div>
                                 <div class="text">
-                                    <p>Iste natus error sit voluptatem accusantium dolo remque laudantium.</p>
+                                    <p></p>
                                     <a href="#" class="btn theme-btn">Donate now</a>
                                 </div>
                             </div>
@@ -392,7 +392,7 @@
                                     </ul>
                                 </div>
                                 <div class="text">
-                                    <p>Iste natus error sit voluptatem accusantium dolo remque laudantium.</p>
+                                    <p></p>
                                     <a href="#" class="btn theme-btn">Donate now</a>
                                 </div>
                             </div>
@@ -419,7 +419,7 @@
                                     </ul>
                                 </div>
                                 <div class="text">
-                                    <p>Iste natus error sit voluptatem accusantium dolo remque laudantium.</p>
+                                    <p></p>
                                     <a href="#" class="btn theme-btn">Donate now</a>
                                 </div>
                             </div>
