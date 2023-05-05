@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\DonationController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,6 +42,16 @@ Route::get('/registration', [PageController::class,'registration']);
 
 Route::get('/success', [PageController::class,'success']);
 
+Route::post('/pay', [PaymentController::class, 'redirectToGateway']);
+
+Route::get('/payment/callback', [PaymentController::class, 'handleGatewayCallback']);
+
+Route::post('/donate', [DonationController::class, 'store']);
 
 
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';

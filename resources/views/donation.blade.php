@@ -17,11 +17,11 @@
                             </div>
                             <div class="causes-list-box">
                                 <div class="title">
-                                    <h3>Hair for cancer patients</h3>
+                                    <h3>{{$cause->name}}</h3>
                                     <div class="progress">
-                                        <div class="progress-bar" data-percent="50"></div>
+                                        <div class="progress-bar" data-percent="{{number_format(($cause->amount_raised * 100)/$cause->goal_amount)}}"></div>
                                     </div>
-                                    <h4>Raised: <span>$52,872</span> / $70,000</h4>
+                                    <h4>Raised: <span>NGN {{number_format($cause->amount_raised)}}</span> / NGN {{number_format($cause->goal_amount)}}</h4>
 
                                 </div>
                                 <div class="inner-details">
@@ -38,46 +38,47 @@
                                                         <div class="row  ">
                                                             <div class="col col-md-12  mx-left form-inner">
 
-                                                                <form style="margin-top: -30px;" class="form row" id="contact-form">
+                                                                <form action="/donate" method="post" class="form row" style="margin-top: -30px;"  id="contact-for">
+
+                                                                    @csrf
+
+                                                                    <input type="hidden" name="donation_programme_id" value="{{$cause->id}}">
 
                                                                     <div class="col col-md-6">
-                                                                        <label for="" style="text-align: left;">Amount (NGN):</label>
-                                                                        <input type="number" class="form-control" name="name" min="1000" max="50000000" value="1000" placeholder="Enter Amount">
+                                                                        <label for="amount" style="text-align: left;">Amount (NGN):</label>
+                                                                        <input type="number" class="form-control" name="amount" min="1000" max="50000000" value="1000" placeholder="Enter Amount">
                                                                     </div>
                                                                     <div class="col col-md-6">
-                                                                        <label for="">Fullname</label>
+                                                                        <label for="name">Fullname</label>
                                                                         <input type="text" class="form-control" name="name" placeholder="your name..">
                                                                     </div>
                                                                     <div class="col col-md-6">
-                                                                        <label for="">Email</label>
+                                                                        <label for="email">Email</label>
                                                                         <input type="email" class="form-control" name="email" placeholder="your email..">
                                                                     </div>
                                                                     <div class="col col-md-6">
-                                                                        <label for="">Phone</label>
+                                                                        <label for="phone">Phone</label>
                                                                         <input type="phone" class="form-control" name="phone" placeholder="Enter phone number">
                                                                     </div>
                                                                     <div class="col col-md-12">
-                                                                        <label for="">Address</label>
-                                                                        <input type="text" class="form-control" name="subject" placeholder="Enter Address">
+                                                                        <label for="address">Address</label>
+                                                                        <input type="text" class="form-control" name="address" placeholder="Enter Address">
                                                                     </div>
 
                                                                     <div class="custom-control custom-radio ">
-                                                                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                                                        <input type="radio" id="customRadio1" name="payment_method" value="paystack" class="custom-control-input">
                                                                         <label class="custom-control-label" for="customRadio1">Pay with paypal</label>
                                                                       </div>
                                                                       <div class="custom-control custom-radio">
-                                                                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                                                        <input type="radio" id="customRadio2" name="payment_method" value="paypal" class="custom-control-input">
                                                                         <label class="custom-control-label" for="customRadio2">Pay with paystack</label>
                                                                       </div>
 
                                                                     <div class="col col-md-12">
                                                                         <button type="submit" class="bnt theme-btn">Submit</button>
-                                                                        <span id="loader"><img src="images/contact-ajax-loader.gif" alt="Loader"></span>
+
                                                                     </div>
-                                                                    <div class="col col-md-12">
-                                                                        <div id="success">Thank you</div>
-                                                                        <div id="error"> Error occurred while sending email. Please try again later. </div>
-                                                                    </div>
+
                                                                 </form>
                                                             </div>
                                                         </div> <!-- end row -->

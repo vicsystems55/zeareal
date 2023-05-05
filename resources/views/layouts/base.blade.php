@@ -40,6 +40,8 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+
 </head>
 
 <body>
@@ -67,7 +69,7 @@
     <script src="js/jquery-plugin-collection.js"></script>
 
     <!-- Google map API -->
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyBga-LlkCob_vznMagY24dDPwTX8lcCJ3k"></script>
+    <script src="http://maps.google.com/maps/api/js?key="></script>
 
     <!-- Custom script for this template -->
     <script src="js/script.js"></script>

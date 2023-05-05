@@ -15,6 +15,17 @@ class CreateMembershipsTable extends Migration
     {
         Schema::create('memberships', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('email');
+            $table->string('country');
+            $table->string('address');
+            $table->string('phone');
+            $table->string('membership_type');
+            $table->integer('donation_frequency_ndays')->nullable();
+            $table->integer('donation_frequency_amount')->nullable();
+            $table->boolean('status')->default(true);
+
+
             $table->timestamps();
         });
     }

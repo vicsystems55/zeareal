@@ -281,29 +281,6 @@
 
 
 
-                <!-- start newsletter -->
-                <section class="newsletter">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col col-md-5 children-holder children-holder-s2"></div>
-                            <div class="col col-md-7 subscribe">
-                                <h3>Subscribe us</h3>
-                                <p>For <span>news</span> updates and promotional <span>events</span></p>
-
-                                <form action="#">
-                                    <div>
-                                        <input class="form-control" type="email" required placeholder="email address">
-                                        <button type="submit" class="btn theme-btn">Subscribe</button>
-                                    </div>
-                                </form>
-                                <div class="pluses">
-                                    <i class="fa fa-plus"></i>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                            </div>
-                        </div> <!-- end row -->
-                    </div> <!-- end container-fluid -->
-                </section>
-                <!-- end newsletter -->
+@include('incs.newsletter')
 
 @endsection

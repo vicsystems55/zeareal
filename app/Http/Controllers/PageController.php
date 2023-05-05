@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\DonationProgramme;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -11,7 +12,9 @@ class PageController extends Controller
     public function index()
     {
 
-        return view('home');
+        $causes = DonationProgramme::get();
+
+        return view('home', compact('causes'));
     }
 
     public function about()
@@ -56,10 +59,12 @@ class PageController extends Controller
         return view('program_area');
     }
 
-    public function donation()
+    public function donation(Request $request)
     {
 
-        return view('donation');
+        $cause = DonationProgramme::where('slug', $request->slug)->firstOrFail();
+
+        return view('donation', compact('cause'));
     }
 
     public function registration()

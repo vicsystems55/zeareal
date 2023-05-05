@@ -260,169 +260,42 @@
                         </div> <!-- end section-title -->
 
                         <div class="row content">
+
+                            @forelse ($causes as $cause)
+
                             <div class="col col-md-4 col-xs-6">
                                 <div class="title">
                                     <ul>
-                                        <li><h3>QUALITY HEALTH</h3></li>
+                                        <li><h3>{{$cause->name}}</h3></li>
                                         <li></li>
                                     </ul>
                                 </div>
                                 <div class="img-progress">
                                     <div class="img-holder">
-                                        <img src="images/latest-causes/img-1.jpg" alt class="img img-responsive">
+                                        <img src="images/latest-causes/img-{{$cause->id}}.jpg" alt class="img img-responsive">
                                     </div>
                                     <div class="progress">
-                                        <div class="progress-bar" data-percent="85"></div>
+                                        <div class="progress-bar" data-percent="{{number_format(($cause->amount_raised * 100)/$cause->goal_amount, 2)}}"></div>
                                     </div>
                                 </div>
                                 <div class="donate-amount">
                                     <ul>
-                                        <li>Raised: <span>NGN 52,872</span> / NGN 70,000</li>
+                                        <li>Raised: <span>NGN {{number_format($cause->amount_raised, 2)}}</span> / NGN {{number_format($cause->goal_amount, 2)}}</li>
                                         <li></li>
                                     </ul>
                                 </div>
                                 <div class="text">
                                     <p></p>
-                                    <a href="#" class="btn theme-btn">Donate now</a>
+                                    <a href="/donation?slug={{$cause->slug}}" class="btn theme-btn">Donate now</a>
                                 </div>
                             </div>
 
-                            <div class="col col-md-4 col-xs-6">
-                                <div class="title">
-                                    <ul>
-                                        <li><h3>COVID-19 RESPONSE</h3></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="img-progress">
-                                    <div class="img-holder">
-                                        <img src="images/latest-causes/img-2.jpg" alt class="img img-responsive">
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" data-percent="55"></div>
-                                    </div>
-                                </div>
-                                <div class="donate-amount">
-                                    <ul>
-                                        <li>Raised: <span>NGN 52,872</span> / NGN 70,000</li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="text">
-                                    <p></p>
-                                    <a href="#" class="btn theme-btn">Donate now</a>
-                                </div>
-                            </div>
+                            @empty
 
-                            <div class="col col-md-4 col-xs-6">
-                                <div class="title">
-                                    <ul>
-                                        <li><h3>FOOD & WATER SUPPORTS</h3></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="img-progress">
-                                    <div class="img-holder">
-                                        <img src="images/latest-causes/img-3.jpg" alt class="img img-responsive">
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" data-percent="25"></div>
-                                    </div>
-                                </div>
-                                <div class="donate-amount">
-                                    <ul>
-                                        <li>Raised: <span>NGN 52,872</span> / NGN 70,000</li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="text">
-                                    <p></p>
-                                    <a href="#" class="btn theme-btn">Donate now</a>
-                                </div>
-                            </div>
-
-                            <div class="col col-md-4 col-xs-6">
-                                <div class="title">
+                            @endforelse
 
 
-                                    <ul>
-                                        <li><h3>EDUCATION FOR RURAL CHILDREN</h3></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="img-progress">
-                                    <div class="img-holder">
-                                        <img src="images/latest-causes/img-4.jpg" alt class="img img-responsive">
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" data-percent="95"></div>
-                                    </div>
-                                </div>
-                                <div class="donate-amount">
-                                    <ul>
-                                        <li>Raised: <span>NGN 52,872</span> / NGN 70,000</li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="text">
-                                    <p></p>
-                                    <a href="#" class="btn theme-btn">Donate now</a>
-                                </div>
-                            </div>
 
-                            <div class="col col-md-4 col-xs-6">
-                                <div class="title">
-                                    <ul>
-                                        <li><h3>YOUTH EMPOWERMENT PROGRAMS</h3></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="img-progress">
-                                    <div class="img-holder">
-                                        <img src="images/latest-causes/img-5.jpg" alt class="img img-responsive">
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" data-percent="70"></div>
-                                    </div>
-                                </div>
-                                <div class="donate-amount">
-                                    <ul>
-                                        <li>Raised: <span>NGN 52,872</span> / NGN 70,000</li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="text">
-                                    <p></p>
-                                    <a href="#" class="btn theme-btn">Donate now</a>
-                                </div>
-                            </div>
-
-                            <div class="col col-md-4 col-xs-6">
-                                <div class="title">
-                                    <ul>
-                                        <li><h3>CHILD RIGHTS ADVOCACY</h3></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="img-progress">
-                                    <div class="img-holder">
-                                        <img src="images/latest-causes/img-6.jpg" alt class="img img-responsive">
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" data-percent="15"></div>
-                                    </div>
-                                </div>
-                                <div class="donate-amount">
-                                    <ul>
-                                        <li>Raised: <span>NGN 52,872</span> / NGN 70,000</li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="text">
-                                    <p></p>
-                                    <a href="#" class="btn theme-btn">Donate now</a>
-                                </div>
-                            </div>
                         </div> <!-- end content -->
                     </div> <!-- end container -->
                 </section>
@@ -533,30 +406,7 @@
 
 
 
-        <!-- start newsletter -->
-        <section class="newsletter">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col col-md-5 children-holder"></div>
-                    <div class="col col-md-7 subscribe">
-                        <h3>Subscribe us</h3>
-                        <p>For <span>news</span> updates and promotional <span>events</span></p>
-
-                        <form action="#">
-                            <div>
-                                <input class="form-control" type="email" required placeholder="email address">
-                                <button type="submit" class="btn theme-btn">Subscribe</button>
-                            </div>
-                        </form>
-                        <div class="pluses">
-                            <i class="fa fa-plus"></i>
-                            <i class="fa fa-plus"></i>
-                        </div>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container-fluid -->
-        </section>
-        <!-- end newsletter -->
+@include('incs.newsletter')
 
 
 
