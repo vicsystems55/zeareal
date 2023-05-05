@@ -30,7 +30,7 @@ class DonationController extends Controller
             "email" => $donation->email,
             "currency" => "NGN",
             "orderID" => rand(100, 3000),
-            "callback_url" => config('app.url').'/success?donationId='.$donation->id
+            "callback_url" => config('app.url').'success?donationId='.$donation->id
         );
 
 
