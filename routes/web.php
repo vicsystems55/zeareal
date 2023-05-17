@@ -48,6 +48,11 @@ Route::get('/payment/callback', [PaymentController::class, 'handleGatewayCallbac
 
 Route::post('/donate', [DonationController::class, 'store']);
 
+Route::get('/log-out', [PageController::class,'log_out']);
+
+
+
+
 
 
 // Route::get('/dashboard', function () {

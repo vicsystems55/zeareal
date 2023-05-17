@@ -79,5 +79,11 @@ class PageController extends Controller
         return view('success');
     }
 
+    public function log_out()
+    {
+
+        return view('success');
+    }
+
 
 }

@@ -16,9 +16,9 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 |
 */
 
-Route::prefix('admin')->group(function(){
-    Route::get('/', [DashboardController::class, 'index']);
+
+    Route::get('/dashboard', [DashboardController::class, 'index']);
     Route::get('/members', [DashboardController::class, 'members']);
     Route::get('/donations', [DashboardController::class, 'donations']);
 
-});
+

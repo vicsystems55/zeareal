@@ -191,28 +191,28 @@
                     </div>
                     <ul class="sidebar-menu">
                         <li>
-                            <a class="sidebar-header" href="/admin">
+                            <a class="sidebar-header" href="/dashboard">
                                 <i data-feather="home"></i>
                                 <span>Dashboard</span>
                             </a>
                         </li>
 
                         <li>
-                            <a class="sidebar-header" href="admin/members">
+                            <a class="sidebar-header" href="/members">
                                 <i data-feather="users"></i>
                                 <span>Members</span>
                             </a>
                         </li>
 
                         <li>
-                            <a class="sidebar-header" href="admin/donations">
+                            <a class="sidebar-header" href="/donations">
                                 <i data-feather="users"></i>
                                 <span>Donations</span>
                             </a>
                         </li>
 
                         <li>
-                            <a class="sidebar-header" href="/">
+                            <a class="sidebar-header" href="/logout">
                                 <i data-feather="log-out"></i>
                                 <span>Logout</span>
                             </a>
