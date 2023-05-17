@@ -241,7 +241,7 @@
                             <div class="wow fadeInRightSlow">
                                 <h2>Sign up for <span>partner program</span> means a lot</h2>
                                 <p>Partner with Zeareal Care to support our mission of transforming lives through education, healthcare, and women's empowerment. Join us today!</p>
-                                <a href="#" class="btn theme-btn">Sign up</a>
+                                <a href="/registration?type=partner" class="btn theme-btn">Sign up as a partner</a>
                             </div>
                         </div>
                     </div> <!-- end row -->
@@ -321,7 +321,7 @@
                         <h3><span><img src="images/sing-up-icon.png" alt></span> Sign up for volunteer program</h3>
                         <span>Serve the humanity</span>
                         <p>Join Zeareal Care as a volunteer and make a meaningful impact in the lives of children and communities. Sign up now!</p>
-                        <a href="#" class="btn theme-btn">Sign up</a>
+                        <a href="/registration?type=volunteer" class="btn theme-btn">Sign up as a volunteer</a>
                     </div>
                 </div> <!-- end row -->
             </div> <!-- end container -->

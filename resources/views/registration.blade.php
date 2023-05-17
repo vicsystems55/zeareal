@@ -15,7 +15,13 @@
 
                             <div class="causes-list-box">
                                 <div class="title">
-                                    <h3>Sign up as a partner</h3>
+                                    @if (request()->get('type') =='partner')
+
+                                    <h3>SIGN UP AS PARTNER</h3>
+                                    @else
+                                    <h3>SIGN UP AS VOLUNTEER</h3>
+
+                                    @endif
 
 
                                 </div>
@@ -59,6 +65,26 @@
                                                                     <div class="col col-md-12">
                                                                         <label for="">Address</label>
                                                                         <input type="text" class="form-control" name="subject" placeholder="Enter Address">
+                                                                    </div>
+
+                                                                    <div class="col col-md-6">
+                                                                        <label for="">Amount</label>
+                                                                        <input type="number" class="form-control" name="phone" placeholder="Enter Amount">
+                                                                    </div>
+
+                                                                    <div class="col col-md-6">
+                                                                        <label for="">Commitment</label>
+                                                                        <select name="" id="" class="form-control shadow border">
+                                                                            <option value="Weekly">Weekly</option>
+                                                                            <option value="Monthly">Monthly</option>
+                                                                            <option value="Quarterly">Quarterly</option>
+                                                                            <option value="Semiannually">Semiannually</option>
+
+                                                                            <option value="Yearly">Yearly</option>
+
+
+
+                                                                        </select>
                                                                     </div>
 
 
