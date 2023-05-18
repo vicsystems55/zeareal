@@ -37,11 +37,19 @@
 
 
                                                 <div style="top: auto;" class="contact-form">
-
+                                                    @if(Session::has('message'))
+                                                    <p class="alert alert-info">{{ Session::get('message') }}</p>
+                                                    @endif
                                                         <div class="row  ">
                                                             <div class="col col-md-12  mx-left form-inner">
 
-                                                                <form style="margin-top: -30px;" class="form row" id="contact-form">
+
+
+
+                                                                <form style="margin-top: -30px;" class="form row"  method="post" action="/register-member">
+                                                                    @csrf
+
+                                                                    <input type="hidden" name="membership_type" value="{{request()->get('type')=='partner'?'partner':'volunteer'}}">
 
 
                                                                     <div class="col col-md-6">
@@ -58,37 +66,42 @@
                                                                     </div>
                                                                     <div class="col col-md-6">
                                                                         <label for="">Country</label>
-                                                                        <select name="" id="" class="form-control shadow border">
-                                                                            <option value="">Nigeria</option>
+                                                                        <select name="country" id="" class="form-control shadow border">
+                                                                            <option value="Nigeria">Nigeria</option>
                                                                         </select>
                                                                     </div>
                                                                     <div class="col col-md-12">
                                                                         <label for="">Address</label>
-                                                                        <input type="text" class="form-control" name="subject" placeholder="Enter Address">
-                                                                    </div>
-
-                                                                    <div class="col col-md-6">
-                                                                        <label for="">Amount</label>
-                                                                        <input type="number" class="form-control" name="phone" placeholder="Enter Amount">
-                                                                    </div>
-
-                                                                    <div class="col col-md-6">
-                                                                        <label for="">Commitment</label>
-                                                                        <select name="" id="" class="form-control shadow border">
-                                                                            <option value="Weekly">Weekly</option>
-                                                                            <option value="Monthly">Monthly</option>
-                                                                            <option value="Quarterly">Quarterly</option>
-                                                                            <option value="Semiannually">Semiannually</option>
-
-                                                                            <option value="Yearly">Yearly</option>
-
-
-
-                                                                        </select>
+                                                                        <input type="text" class="form-control" name="address" placeholder="Enter Address">
                                                                     </div>
 
 
-                                                                    <div class="col col-md-12">
+                                                                @if (request()->get('type')=='partner')
+
+                                                                <div class="col col-md-6">
+                                                                    <label for="">Amount</label>
+                                                                    <input type="number" class="form-control" name="phone" placeholder="Enter Amount">
+                                                                </div>
+
+                                                                <div class="col col-md-6">
+                                                                    <label for="">Commitment</label>
+                                                                    <select name="" id="" class="form-control shadow border">
+                                                                        <option value="Weekly">Weekly</option>
+                                                                        <option value="Monthly">Monthly</option>
+                                                                        <option value="Quarterly">Quarterly</option>
+                                                                        <option value="Semiannually">Semiannually</option>
+
+                                                                        <option value="Yearly">Yearly</option>
+
+
+
+                                                                    </select>
+                                                                </div>
+
+                                                                @endif
+
+
+                                                                    <div class="col col-md-12 mt-3">
                                                                         <button type="submit" class="bnt theme-btn">Submit</button>
                                                                         <span id="loader"><img src="images/contact-ajax-loader.gif" alt="Loader"></span>
                                                                     </div>

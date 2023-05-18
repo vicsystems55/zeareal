@@ -135,7 +135,9 @@
                     <div class="col col-sm-4">
                         <div class="wow fadeInLeftSlow">
                             <span class="icon"><i class="fi flaticon-money-1"></i></span>
-                            <h3>Donate money</h3>
+                            <h3>Donate money..</h3>
+
+                 
                             <p>At ZeaReal Care Foundation, Transform lives with your generous donations.</p>
                             <a href="#" class="read-more">Read more</a>
                         </div>

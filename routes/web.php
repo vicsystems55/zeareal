@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DonationController;
+use App\Http\Controllers\MembershipController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
@@ -47,6 +48,9 @@ Route::post('/pay', [PaymentController::class, 'redirectToGateway']);
 Route::get('/payment/callback', [PaymentController::class, 'handleGatewayCallback']);
 
 Route::post('/donate', [DonationController::class, 'store']);
+
+Route::post('/register-member', [MembershipController::class, 'store']);
+
 
 Route::get('/log-out', [PageController::class,'log_out']);
 

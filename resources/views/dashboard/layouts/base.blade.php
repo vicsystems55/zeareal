@@ -5,12 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Multikart admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords"
-        content="admin template, Multikart admin template, dashboard template, flat admin template, responsive admin template, web app">
-    <meta name="author" content="pixelstrap">
-    <link rel="icon" href="{{asset('admin_dashboard')}}/assets/images/dashboard/favicon.png" type="image/x-icon">
+
+    <link href="images/favicon.png" rel="shortcut icon" type="image/png">
+
     <link rel="shortcut icon" href="{{asset('admin_dashboard')}}/assets/images/dashboard/favicon.png" type="image/x-icon">
     <title>Zeareal Care Foundation </title>
 
@@ -237,10 +234,10 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-6 footer-copyright text-start">
-                            <p class="mb-0">Copyright 2019 © Multikart All rights reserved.</p>
+                            <p class="mb-0">Copyright 2023 © Zeareal Care Foundation All rights reserved.</p>
                         </div>
                         <div class="col-md-6 pull-right text-end">
-                            <p class=" mb-0">Hand crafted & made with<i class="fa fa-heart"></i></p>
+                            <p class=" mb-0">vicSystems Technologies Ltd.</p>
                         </div>
                     </div>
                 </div>

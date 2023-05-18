@@ -12,7 +12,7 @@
                     <h1>About us</h1>
                     <ol class="breadcrumb">
                         <li><a href="#">Home</a></li>
-                        <li class="active">About us</li>
+                        <li class="active">About us            </li>
                     </ol>
                 </div>
             </div> <!-- end container -->

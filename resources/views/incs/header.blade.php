@@ -55,14 +55,12 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <button class="close-navbar"><i class="fa fa-close"></i></button>
                 <ul class="nav navbar-nav">
-                    <li class="current ">
-                        <a href="/" >Home</a>
-
-                    </li>
-                    <li class="">
-                        <a href="/about" class="text-white">About</a>
-
-                    </li>
+<li class="{{request()->is('')?'current':''}}">
+    <a href="/" >Home</a>
+</li>
+<li class="{{request()->is('about')?'current':''}}">
+    <a href="/about" class="text-white">About</a>
+</li>
                     {{-- <li class="">
                         <a href="/blog">Blog</a>
 
@@ -72,17 +70,19 @@
 
                     </li> --}}
 
-                    <li>
+                    <li class="{{request()->is('projects')?'current':''}}">
 
                         <a href="/projects">Projects</a>
 
                     </li>
-                    <li>
+                    <li class="{{request()->is('program-area')?'current':''}}">
 
                         <a href="/program-area">Program Area</a>
 
                     </li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li class="{{request()->is('contact')?'current':''}}">
+
+                        <a href="/contact">Contact</a></li>
                 </ul>
             </div><!-- end of nav-collapse -->
 

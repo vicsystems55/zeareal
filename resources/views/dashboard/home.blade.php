@@ -42,7 +42,7 @@
                             </div>
                             <div class="media-body media-doller">
                                 <span class="m-0">Donations</span>
-                                <h3 class="mb-0">$ <span class="counter">6659</span><small> This
+                                <h3 class="mb-0">$ <span class="counter">{{number_format($donations->sum('amount'), 2)}}</span><small> This
                                         Month</small>
                                 </h3>
                             </div>
@@ -61,7 +61,7 @@
                                         class="font-danger"></i></div>
                             </div>
                             <div class="media-body media-doller"><span class="m-0">Members</span>
-                                <h3 class="mb-0"> <span class="counter">5631</span><small> This
+                                <h3 class="mb-0"> <span class="counter">{{$members->count()}}</span><small> This
                                         Month</small></h3>
                             </div>
                         </div>
